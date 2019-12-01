@@ -11,7 +11,7 @@ AXIS2_HOME = installationDirectory\axis2-1.7.9
 ```
 
 ## Usage
-1. Go to [wservice](../wservice/ws/timeTable) and run [comileService.bat](../wservice/ws/timeTable/comileService.bat) that will compile Service Class.
+1. Go to [wservice](../tree/master/wservice/ws/timeTable) and run [comileService.bat](../wservice/ws/timeTable/comileService.bat) that will compile Service Class.
 2. Go to [wservice](../wservice/) and run [buildService.bat](../wservice/buildService.bat) that will make service .aar file, then upload that file to 'axis2-1.7.9\repository\services'.
 3. Go to [master](../) directory and run [startServer.bat](../startServer.bat) that will that will on axis2 Server.
 4. Go to [wserviceClient](../wserviceClient) and run [buildClient.bat](../wserviceClient/buildClient.bat) that will create Stub classes and compile the client & other classess.
