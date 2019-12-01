@@ -1,0 +1,1 @@
+javac -cp %AXIS2_HOME%\lib\* *.java

@@ -1,0 +1,15 @@
+<service name="TimeTableService">
+    
+	<description>
+        This Service Provide Time Table.
+    </description>
+	
+	<parameter locked="false" name="ServiceClass">
+		ws.timeTable.TimeTable
+	</parameter>
+	
+	 <operation name="getTimeTable">
+		<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+	</operation>
+	
+</service>
