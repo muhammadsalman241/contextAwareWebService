@@ -1,11 +1,13 @@
 # Context Aware Web Service
 Prototype of Axis2 Soap Engine based Context Aware Web Service.
 This webservice provide time table, and project contain software sensor, which sense where user are and where it should be according to time table and current time and date, It just a model presenting that how the Pervasive Systems are act.
+### System Behaviour 
+This project is written in java [POJO](http://axis.apache.org/axis2/java/core/docs/pojoguide.html) style based web service which is deployed on [Standalone Axis2 webserver](http://axis.apache.org/axis2/java/core/docs/installationguide.html#standalone2), project contain a service which provide timetable, and a client who get time table from soap service and show to user, but among them there is a sensor which grab context from client and show a notification.
 
 
 ## Installation
 
-Download and Install [Axis2](http://www.apache.org/dyn/closer.lua/axis/axis2/java/core/1.7.9/axis2-1.7.9-bin.zip) binary version and Make these Enviroment Variables, then download this repo and follow bellow given steps.
+Download and [Install](http://axis.apache.org/axis2/java/core/docs/installationguide.html#standalone2) [Axis2](http://www.apache.org/dyn/closer.lua/axis/axis2/java/core/1.7.9/axis2-1.7.9-bin.zip) binary version and Make these Enviroment Variables, then download this repo and follow bellow given steps.
 
 ```bash
 AXIS2_HOME = installationDirectory\axis2-1.7.9
